@@ -1,6 +1,6 @@
 public class Moto extends Veiculo{
     private String tipoDeGuidao;
-    Motor motor;
+    private Motor motor;
 
     public String getTipoDeGuidao() {
         return tipoDeGuidao;
