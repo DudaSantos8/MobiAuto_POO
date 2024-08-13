@@ -3,6 +3,12 @@ public class Veiculo {
     private String modelo;
     private int ano;
 
+    public Veiculo(String marca, String modelo, int ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
     public String getMarca() {
         return marca;
     }
@@ -18,7 +24,7 @@ public class Veiculo {
     @Override
     public String toString() {
         StringBuilder model = new StringBuilder();
-        model.append("marca: " + marca);
+        model.append("Marca: " + marca);
         model.append("\nModelo: " + modelo);
         model.append("\nAno: " + ano);
         return model.toString();
