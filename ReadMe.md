@@ -1,1 +1,1 @@
-![UML of system](./static/uml.png)
+![UML of system](./static/UML.png)
